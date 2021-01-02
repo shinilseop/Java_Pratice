@@ -30,7 +30,6 @@ class JScrollPaneDemo extends JFrame {
 		}
 		int v=ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED;
 		int h=ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED;
-		System.out.println(v+" "+h);
 		JScrollPane jsp=new JScrollPane(jp, v, h);
 		
 		ct.add(jsp, BorderLayout.CENTER);
