@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 
 public class EventTest1 {
 	public static void main(String args[]) {
-		ButtonEventTest bet = new ButtonEventTest();
+		new ButtonEventTest();
 	}
 }
 
